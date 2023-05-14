@@ -1,10 +1,11 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Amatic SC', cursive;
 }
 body {
     height: 100vh;
-    background-image: url("Plantas.jpg");
+    background-image: url("Background.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,6 +15,19 @@ body {
 }
 p {
     color: aliceblue;
+}
+.contenedor {
+width: 90%;
+max-width: 1200px;
+margin: auto;
+padding: 40px 0;
+display: grid;
+grid-template-columns: 1fr;
+}
+.contenedor-informacion {
+display: grid;
+grid-template-columns: repeat(1fr);
+gap: 20px;
 }
 footer{
     justify-self: center;
@@ -34,9 +48,27 @@ ul > li {
     color: aliceblue;
     list-style: none;
 }
-li:hover{
+.nav li:hover{
     font-size: 20px;
     color: blueviolet;
+}
+.nav > li {
+    float: left;
+}
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+.card {
+	border-radius: 10px;
+	min-height: 200px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
 }
 .main{
     justify-self: end;
@@ -82,7 +114,7 @@ li:hover{
         color: aliceblue;
     }
     body {
-        background-image: url("Plantas.jpg");
+        background-image: url("Background.jpg");
     }
     nav{
         display: none;
