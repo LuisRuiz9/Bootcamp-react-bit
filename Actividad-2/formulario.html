@@ -4,25 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FORMULARIO</title>
+    <title>Formulario</title>
+    <style>
+      body {
+          background-color: lightblue;
+      }
+  </style>
 </head>
 <main>
-    <h1>FORMULARIO</h1>
-    <P>Ayudanos a completar estos datos para finalizar tu proceso:</P>
+    <h1>Dejanos tus datos para agendar una cita</h1>
 </main>
 <body>
     <form>
       <label for="Nombre">Nombre</label>  
       <input required id="Nombre" type="text">
     </li>
+    <br><br>
     <li>
       <label for="email">Correo electrónico</label>
       <input required type="email" name="Correo" id="email">
     </li>
+    <br><br>
     <li>
-      <label for="password">Contraseña</label>
-      <input required id="password"  name="Contraseña" type="password">
+      <label for="phone">Número de celular:</label>
+      <input type="tel" id="phone" required>
+    <br><br>
     </li>
+    <br>
 </ul>
       <button type="submit">Enviar</button>
     </form>

@@ -4,11 +4,7 @@
     font-family: 'Amatic SC', cursive;
 }
 body {
-    height: 100vh;
-    background-image: url("Background.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: greenyellow;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: 15% 70% 15%;
@@ -28,6 +24,9 @@ grid-template-columns: 1fr;
 display: grid;
 grid-template-columns: repeat(1fr);
 gap: 20px;
+}
+.error {
+    color: red;
 }
 footer{
     justify-self: center;
@@ -59,6 +58,16 @@ ul > li {
     display: none;
     position: absolute;
     min-width: 140px;
+}
+.nav > li:hover {
+    font-size: 20px;
+    color: blueviolet;
+}
+.nav li:hover > ul {
+    display:block;
+}
+.nav > li ul > li {
+    font-size: 20px;
 }
 .card {
 	border-radius: 10px;
