@@ -123,7 +123,7 @@ ul > li {
         color: aliceblue;
     }
     body {
-        background-image: url("Background.jpg");
+        background-color: greenyellow;
     }
     nav{
         display: none;
