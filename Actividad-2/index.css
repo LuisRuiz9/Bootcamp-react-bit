@@ -10,7 +10,7 @@ body {
     grid-template-rows: 15% 70% 15%;
 }
 p {
-    color: aliceblue;
+    color: black;
 }
 .contenedor {
 width: 90%;
@@ -44,7 +44,7 @@ ul{
     margin: 0
 }
 ul > li {
-    color: aliceblue;
+    color: rgb(19, 22, 26);
     list-style: none;
 }
 .nav li:hover{
